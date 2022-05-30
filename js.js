@@ -10,7 +10,7 @@ function setAsosiy() {
     const currentDate = new Date()
     const secondsRatio = currentDate.getSeconds()
     const minutesRatio = (secondsRatio + currentDate.getMinutes())
-    const hoursRatio = (minutesRatio + currentRatio.getHours())
+    const hoursRatio = (minutesRatio + currentDate.getHours())
     setRotation(milSekund, secondsRatio)
     setRotation(milMinut, minutesRatio)
     setRotation(milSoat, hoursRatio)
